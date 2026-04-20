@@ -24,7 +24,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://web-portfolio-eight-topaz.vercel.app"),
   title: {
     default: "Web制作ポートフォリオ | ランディングページ・コーポレートサイト",
     template: "%s | Web制作ポートフォリオ",
@@ -34,6 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: "ja_JP",
     type: "website",
+    url: "https://web-portfolio-eight-topaz.vercel.app",
   },
   robots: { index: true, follow: true },
 };
